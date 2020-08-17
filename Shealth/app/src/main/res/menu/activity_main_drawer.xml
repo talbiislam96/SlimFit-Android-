@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_accueil"
+            android:icon="@drawable/accueil"
+            android:title="Accueil" />
+        <item
+            android:id="@+id/nav_ex_prog"
+            android:icon="@drawable/programme"
+            android:title="Exercice/Programme" />
+        <item
+            android:id="@+id/nav_quotidien"
+            android:icon="@drawable/basket"
+            android:title="Mon quotidien" />
+        <item
+            android:id="@+id/nav_programme"
+            android:icon="@drawable/programme"
+            android:title="Mes programmes" />
+        <item
+            android:id="@+id/nav_Exercices"
+            android:icon="@drawable/gym"
+            android:title="Mes Exercices" />
+        <item
+            android:id="@+id/nav_Profil"
+            android:icon="@drawable/profil"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_challenge"
+            android:icon="@drawable/favoris"
+            android:title="Challenge" />
+        <item
+            android:id="@+id/nav_food"
+            android:icon="@drawable/basket"
+            android:title=" Nutrition" />
+    </group>
+
+
+
+</menu>

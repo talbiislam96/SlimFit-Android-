@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="30dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="16dp"
+    android:background="@color/com_facebook_button_login_silver_background_color"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageUserComment"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/fond2"
+            tools:layout_editor_absoluteX="7dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <LinearLayout
+            android:layout_width="260dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/userNameComment"
+                android:layout_width="231dp"
+                android:layout_height="22dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:text="Nom et Prenom"
+                android:textColor="@color/com_facebook_button_background_color_pressed"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="6dp" />
+
+            <TextView
+                android:id="@+id/dateCommentaire"
+                android:layout_width="226dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="date Commentaire"
+                android:textColor="@color/com_facebook_likeboxcountview_border_color"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/deleteComment"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="2dp"
+            android:alpha="0.8"
+            android:background="@android:drawable/ic_delete"
+            tools:layout_editor_absoluteX="359dp"
+            tools:layout_editor_absoluteY="12dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view7"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/colorWhiteTransparent"
+        tools:layout_editor_absoluteX="11dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <TextView
+        android:id="@+id/commentaireTxtItem"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="5dp"
+        android:maxLines="2"
+        android:scrollbars="vertical"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <LinearLayout
+        android:layout_width="319dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/commentBtn"
+            android:layout_width="65dp"
+            android:layout_height="17dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="10dp"
+            android:alpha="0.7"
+            android:background="@drawable/com_facebook_button_send_background"
+            android:text="Commenter"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="10sp"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="71dp" />
+
+        <Button
+            android:id="@+id/CommentUpdate"
+            android:layout_width="63dp"
+            android:layout_height="17dp"
+            android:alpha="0.7"
+            android:background="@drawable/com_facebook_button_send_background"
+            android:text="Modifier"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="10sp"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="71dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

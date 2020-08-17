@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center|center_horizontal|center_vertical"
+    android:background="@drawable/profilstyle"
+    android:orientation="vertical">
+
+<com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/nomamodifer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text=""
+            android:hint="Nom"
+            android:textSize="15sp"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true"
+            app:met_primaryColor="@color/colorAccent"
+            />
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/descriptionamodifier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="20dp"
+            android:text=""
+            android:hint="Description"
+            android:textSize="15sp"
+            app:met_floatingLabel="highlight"
+            app:met_baseColor="@color/colorPrimary"
+            app:met_singleLineEllipsis="true"
+            app:met_primaryColor="@color/colorAccent"
+            />
+
+
+    <Button
+        android:id="@+id/modifierconfirmer"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/butonstyleajouter"
+        android:text="Modifier"
+        android:textColor="#fff" />
+</LinearLayout>
+
+

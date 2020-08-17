@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center|center_horizontal|center_vertical"
+    android:background="@drawable/profilstyle"
+    android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/iconspoid"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/poidsamodifer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text=""
+                android:hint="Poids"
+                android:textSize="15sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true"
+                app:met_primaryColor="@color/colorAccent"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/iconemesure"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/tailleamodifier"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text=""
+                android:hint="Taille"
+                android:textSize="15sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true"
+                app:met_primaryColor="@color/colorAccent"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:orientation="horizontal"
+            android:paddingLeft="25dp">
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/iconsage"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"/>
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/ageamodifier"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:text=""
+                android:hint="age"
+                android:textSize="15sp"
+                app:met_floatingLabel="highlight"
+                app:met_baseColor="@color/colorPrimary"
+                app:met_singleLineEllipsis="true"
+                app:met_primaryColor="@color/colorAccent"
+                />
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/modifierconfirmer"
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/buttonstyleithgradient"
+            android:text="Modifier"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+
